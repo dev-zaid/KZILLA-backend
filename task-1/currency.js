@@ -15,4 +15,4 @@ console.log("\# Currency Count \#")
 
 for (let [key, value] of currencyNotes) {
     console.log(key + ' * ' + value);
-  }
+}
