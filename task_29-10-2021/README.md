@@ -6,3 +6,5 @@
 - [x] ✨Create a simple Javascript server, that listens on port 5000 and logs the request headers.
 
 ## Files 📂
+- `index.js` ➡️ Initialize JS Server
+- `arrowFunction.js` ➡️ Arrow Function Example
