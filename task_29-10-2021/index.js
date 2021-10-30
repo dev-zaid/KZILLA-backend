@@ -4,7 +4,7 @@ const hostname = '127.0.0.1';
 const port = 5000;
 
 const server = http.createServer((req,res) => {
-    console.log(req.header);
+    console.log(req.headers);
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/plain');
     res.end('Hello World');
