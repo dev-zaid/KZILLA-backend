@@ -1,8 +1,8 @@
 ## To-Do ✔️
 - [x] ✨Require the generator function using DESTRUCTURING in a separate file.
-- [ ] ✨Execute the generator function by passing a number parameter.
-- [ ] ✨For a parameter <= 10, all the promises will resolve. PRINT RESOLVED VALUE of each promise in the array.
-- [ ] ✨For a parameter >10, all the promises will reject. CATCH THE ERRORS AND PRINT THE REJECTED MESSAGE for each rejected promise in the array.
+- [x] ✨Execute the generator function by passing a number parameter.
+- [x] ✨For a parameter <= 10, all the promises will resolve. PRINT RESOLVED VALUE of each promise in the array.
+- [x] ✨For a parameter >10, all the promises will reject. CATCH THE ERRORS AND PRINT THE REJECTED MESSAGE for each rejected promise in the array.
 
 ## Resourses 📚
 - [Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
