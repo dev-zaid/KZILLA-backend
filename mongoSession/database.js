@@ -80,7 +80,7 @@ const deleteContact = async(db, keyName) => {
     if (await db.findOne({name:keyName})) {
         try {
             await client.connect();
-            await db.findOneAndDelete({name: keyName});
+            await db.deleteOne({name: keyName});
             console.log(`Contact of ${keyName} deleted.`);
             process.exit(0);
         } catch (error) {
