@@ -1,0 +1,17 @@
+{
+  "name": "mongosession",
+  "version": "1.0.0",
+  "description": "- Add new telephone details (number + name) - Update a detail using the name - Delete a detail using the name - Read - search detail by name",
+  "main": "database.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "mongodb": "^4.3.0"
+  }
+}

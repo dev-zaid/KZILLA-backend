@@ -2,6 +2,7 @@
 require('dotenv').config();
 const {MongoClient} = require('mongodb');
 const client = new MongoClient(process.env.MONGODB_URI);
+const bcrypt = require('bcrypt');
 
 const run = async() => {
     try{
@@ -13,9 +14,9 @@ const run = async() => {
 
         //Calling CRUD functions
 
-        //createContact(db, "Zaid", 9944556677);
-        //findContact(db,"Zaid");
-        //updateContact(db, "Zaid", "Mohd Zaid", "9898989898");
+        createContact(db, "Zaid", 9944556677);
+        findContact(db,"Zaid");
+        updateContact(db, "Zaid", "Mohd Zaid", "9898989898");
         deleteContact(db, "Mohd Zaid");
 
     }catch(error){
